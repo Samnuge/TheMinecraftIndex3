@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam.theminecraftindex.Table"
+    android:background="@drawable/crafting_wallpaper">
+
+    <ImageView
+        android:id="@+id/craftingImage"
+        android:layout_width="304dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blankcraftingmenu" />
+
+    <TextView
+        android:id="@+id/textViewTL"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="224dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="224dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toEndOf="@+id/textViewTL"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="224dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toEndOf="@+id/textViewTM"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="68dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTL" />
+
+    <TextView
+        android:id="@+id/textViewMM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="68dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toEndOf="@+id/textViewML"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTM" />
+
+    <TextView
+        android:id="@+id/textViewMR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="68dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toEndOf="@+id/textViewMM"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTR" />
+
+    <TextView
+        android:id="@+id/textViewBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewML" />
+
+    <TextView
+        android:id="@+id/textViewBM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toEndOf="@+id/textViewBL"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMM" />
+
+    <TextView
+        android:id="@+id/textViewBR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintStart_toEndOf="@+id/textViewBM"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMR" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="24dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemdesrcipt"
+        android:textColor="@color/colorwhite"
+
+        android:layout_width="218dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="28dp"
+        android:text="The item that is being crafted is"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Item_Name"
+        android:textColor="@color/colorwhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemdesrcipt" />
+</android.support.constraint.ConstraintLayout>
